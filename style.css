@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: space-around;
+    
+    
+}
+header, footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+     
+}
+
+.card {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 350px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(34, 156, 156);
+    margin: 10px;
+    
+    
+}
+
+.card img {
+    /* border: 1px solid green; */
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.card .text {
+    /* border: 1px solid rgb(0, 42, 255); */
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+button{
+    color: white;
+    background: rgb(76, 197, 76);
+    border-radius: 5px;
+}
+
+.text p{
+    color: blue;
+}
